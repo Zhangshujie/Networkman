@@ -1,0 +1,11 @@
+1、注册你的的github账号
+2、生成你的第一个库：
+    登陆 GitHub，新建一个 repository, 命名为 你的用户名 + github.io。如我的用户名为 zhangshujie，		
+所以 repository 命名为 zhangshujie.github.io
+3、注册一个DNS服务器，推荐使用DNSpod或者西部数码（这个需要费用，新用户有优惠，优惠后一年的费用是19元，本人使用），
+   建立个人的域名，例如本人的域名为：www.networkman.cn。并通过DNS服务器将域名与你的githubIP地址联系起来，即将域名解析到你的github。
+这个同步的过程可能需要一段时间，建议隔天再进行域名的打开，看是否能解析到你的github。
+4、有的可能通过GithubDesktop进行同步，但是我不建议使用这种，因为同步时间比较慢，不如直接在网页的github进行编辑。
+5、在你的库下面进行日志的编辑以及生成，这个需要我进一步的了解后再进行编辑。
+6、有问题可以联系我。
+

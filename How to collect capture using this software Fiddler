@@ -1,0 +1,18 @@
+1、手机和电脑需要接入同一网络：同一局域网或者同一WiFi信号。
+2、配置Fiddler
+首先下载安装Fiddler，运行后选择菜单Tools->Fiddler Options,打开https页。
+选中"Decrpt HTTPS traffic"，Fiddler就可以截获HTTPS请求；
+选中Ignore server certificate errors (unsafe);
+打开Connections页，选中"Allow remote computers to connect"，是允许别的机器把HTTP/HTTPS请求发送到Fiddler上来；
+点击OK。
+重启Fiddler。
+3、安装证书
+获取当前电脑的IP地址，例如我这里是：10.102.2.215
+则在iPhone中打开safari并访问地址http://10.102.2.215:8888，点"FiddlerRoot certificate"然后安装证书。
+安装证书。
+4、设置Fiddler为代理
+在iPhone上打开设置->WiFi，点击当前WIFI后面的i图标查看当前连接信息，滚动到底部的HTTP代理，切换为“手动”；
+填入你的IP地址以及对应的端口号：8888.
+5、配置完成后，可以打开你的手机APP，网络请求会通过同一局域网或WiFi上传到Fiddler，进行抓包分析。
+6、因为现在已有部分用户采用IPv6的IP地址网络。目前通过IPv6的HTTP代理无法打开Fiddler的证书下载页，
+建议先切换到IPv4的网络进行Fiddler的设置后，再将网络切换到IPv6进行HTTP代理设置以及抓包分析。
