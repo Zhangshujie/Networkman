@@ -1,0 +1,8 @@
+title: Networkman
+description: About the Ansible and Automatic operation and maintenance
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-time-machine
+
+gems:
+  - jekyll-mentions
